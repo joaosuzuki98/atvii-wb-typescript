@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 478px) {
+    .clientes-container {
+        flex-direction: column;
+    }
+
+    .clientes-container div {
+        margin: 10px 0;
+    }
+}
